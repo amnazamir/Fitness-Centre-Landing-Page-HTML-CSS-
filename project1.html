@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<Style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url('save.jpg');
+       background-size: cover;
+        color: white;
+       
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+
+    .left {
+
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 34px;
+
+    }
+
+    .left img {
+        width: 70px;
+
+    }
+
+    .left div {
+        text-align: center;
+        color: rgb(250, 249, 249);
+        font-size: 12px;
+        font-weight: bold;
+
+    }
+
+
+
+
+    .centre {
+
+        display: block;
+        width: 45%;
+        margin: 15px auto;
+        font-weight: bold;
+        font-size: 18px;
+        
+
+
+
+
+
+    }
+
+    .right {
+
+        position: absolute;
+        top: 20px;
+        right: 34px;
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+        padding-right: 12px;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+
+
+
+
+    }
+
+    .navbar li a {
+        color: rgb(241, 235, 235);
+        text-decoration: none;
+        padding: 12px 12px;
+
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(13, 13, 13);
+
+    }
+
+    .btn {
+        padding: 6px;
+        margin: 10px 8px;
+        background-color: #f3ecec;
+        border: 2px solid;
+        border-radius: 10px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: #cd1843;
+    }
+
+    .card {
+        border: 2px solid rgb(46, 37, 37);
+        margin: 80px 70px/* auto */;
+        padding: 30px 20px;
+        border-radius: 20px;
+        width: 30%;
+
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+
+
+
+    .formgroup input {
+       /* text-align: center;*/
+        display: block;
+        padding: 13px;
+        width: 70%;
+        border: 2px solid rgb(179, 20, 20);
+        border-radius: 18px;
+        font-size: 12px;
+        margin: 15px auto;
+
+    }
+
+    .card button {
+        display: block;
+        width: 20%;
+        margin: auto;
+        padding: 6px;
+         background-color: #d44d32;
+
+    }
+
+    .card h1 {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+        .header{
+            border:2px solid #ff6f61;
+            border-radius: 4px;
+            background-color: #ff6f61;
+            padding:0px;
+            height:75px;
+        }
+</Style>
+
+
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/000/539/318/small/hand_with_a_dumbbell.jpg"
+                alt="">
+            <div>
+                Fitness Centre
+            </div>
+
+
+        </div>
+        <div class="centre">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a> </li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right">
+
+            <button class="btn">call us now</button>
+            <button class="btn">Email now</button>
+        </div>
+        
+    </header>
+    <div class="card">
+        <h1> Join the best Gym Now!</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name" required>
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Age" required>
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Gender" required>
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Locality" required>
+            </div>
+            <div class="formgroup">
+                <input type="email" name="" placeholder="Enter your email" required>
+            </div>
+            <div class="formgroup">
+                <input type="number" name="" placeholder="Enter your number" required>
+            </div>
+        </form>
+        <button class="btn">submit now</button>
+
+
+    </div>
+</body>
+
+</html>
